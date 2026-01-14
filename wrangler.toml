@@ -1,0 +1,10 @@
+name = "line-memo-server"
+main = "src/index.ts"
+compatibility_date = "2023-01-01"
+
+# KV Namespace Binding
+# User must create a KV namespace and bind it as "LINE_MEMO_KV"
+[[kv_namespaces]]
+binding = "LINE_MEMO_KV"
+id = "" 
+preview_id = ""
